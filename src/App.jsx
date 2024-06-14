@@ -1,11 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Componentes/Navbar/Navbar';
 import Footer from './Componentes/Footer/Footer';
 import Home from './Componentes/Home/Home';
 import PokemonList from './Componentes/Pokemones/Pokemones';
 import Detalle from './detalle de compra/detacompra';
-import Compra from './Componentes/formCompra/Compra';
 
 
 function App() {
