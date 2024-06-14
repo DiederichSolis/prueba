@@ -1,0 +1,106 @@
+.contenedorprincipal{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+
+.contenedorprincipal::before{
+    content: "";
+    width: 28rem;
+    height: 28rem;
+    border-radius: 28rem;
+    background: #838281;
+    position: absolute;
+    z-index: -1;
+    filter: blur(150px)
+}
+
+.contenedorprincipal::before{
+    bottom:2rem;
+    right: 0rem;
+
+}
+.card{
+     background: linear-gradient(180deg, #CA6702 0%, #EE9B00 100%); 
+    border:4px solid rgb(201, 201, 201);
+    border-radius: 0.65rem;
+    padding: 1.5rem;
+    margin:0 1rem;
+    align-items: center;
+}
+
+
+
+.descripcion {
+    align-items: center;
+    color: aliceblue;
+}
+
+.descripcion h2{
+    align-items: center;
+}
+.contenedorhome{
+    flex: 1;
+}
+
+.contenedorhome h1{
+    width: 110%;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.contenedorhome h3{
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+.contenedorhome p{
+   width: 99%;
+   font-weight: 400;
+   line-height: 2rem;
+   font-size: 1rem;
+   text-align: center;
+}
+
+.image{
+    width: 20%;
+    height: 20%;
+
+}
+
+.styleimg {
+    flex: 1;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 9rem;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.styleimg > div{
+    display: flex;
+    align-items: flex-end;
+    gap:2rem
+}
+
+.styleimg > div >img{
+    display: flex;
+    align-items: flex-end;
+    gap:2rem;
+    width: 65%;
+    height: 65%;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+ 
