@@ -15,7 +15,7 @@ const Navbar = () => {
               <Link to="home" smooth={true} duration={500}  className="catalogo">Home</Link>
             </li>
             <li>
-              <Link to="detalle"  className="catalogo">Detalle de Compra</Link>
+              <Link to="detalles" smooth={true} duration={500} className="catalogo">Detalle de Compra</Link>
             </li>
             <li>
               <Link to="Formulario"  className="catalogo">Formulario de Compra</Link>
