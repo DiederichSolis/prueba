@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Century+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+
+.style1 {
+    background: black;
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+.content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+    
+}
+
+.content ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.content li {
+    margin: 0 1.5rem;
+}
+
+.catalogo {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.catalogo::before {
+    content:"";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #9B2226 0%, #EE9B00 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.5s ease;
+}
+
+.catalogo:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
