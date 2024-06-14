@@ -5,6 +5,7 @@ import Footer from './Componentes/Footer/Footer';
 import Home from './Componentes/Home/Home';
 import PokemonList from './Componentes/Pokemones/Pokemones';
 import Detalle from './detalle de compra/detacompra';
+import Compra from './Componentes/formCompra/Compra';
 
 
 function App() {
@@ -20,9 +21,13 @@ function App() {
           <Detalle />
         </section>
 
+      
         <section id="pokemon">
           <PokemonList />
         </section>
+
+        
+       
        
 
 

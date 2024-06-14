@@ -15,10 +15,10 @@ const Navbar = () => {
               <Link to="home" smooth={true} duration={500}  className="catalogo">Home</Link>
             </li>
             <li>
-              <Link to="detalles" smooth={true} duration={500} className="catalogo">Detalle de Compra</Link>
+              <Link to="detalles" smooth={true} duration={500} className="catalogo">Detalle de Producto</Link>
             </li>
             <li>
-              <Link to="Formulario"  className="catalogo">Formulario de Compra</Link>
+              <Link to="detalles" smooth={true} duration={500}  className="catalogo">Formulario de Compra</Link>
             </li>
             <li>
               <Link to="pokemon"   smooth={true} duration={500}className="catalogo">Pokemones</Link>
